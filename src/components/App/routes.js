@@ -10,6 +10,7 @@ import noop from '../../utils/noop';
 import Mentor from '../../pages/Mentor';
 import Engineer from '../../pages/Engineer';
 import Writer from '../../pages/Writer';
+import Contact from '../../pages/Contact';
 import Menu from '../../pages/Menu';
 
 class Routes extends React.Component {
@@ -32,6 +33,7 @@ class Routes extends React.Component {
       <Router>
         <Switch>
           <Route path="/menu" component={Menu} />
+          <Route path="/contact" component={Contact} />
           <Route path="/mentor" component={Mentor} />
           <Route path="/engineer" component={Engineer} />
           <Route path="/writer" component={Writer} />
