@@ -32,7 +32,7 @@ class Routes extends React.Component {
     return (
       <Router>
         <Switch>
-          <Route path="/menu" component={Menu} />
+          <Route path="/" component={Menu} />
           <Route path="/contact" component={Contact} />
           <Route path="/mentor" component={Mentor} />
           <Route path="/engineer" component={Engineer} />
